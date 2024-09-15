@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "668932188109",
+    "firebase_url": "https://register-login-6132c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "register-login-6132c",
+    "storage_bucket": "register-login-6132c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668932188109:android:cb021b58624c5abcd74684",
+        "android_client_info": {
+          "package_name": "com.example.login_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF_k9wRu1mCCXGhM-AtlIGHcwU4HpTz-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
