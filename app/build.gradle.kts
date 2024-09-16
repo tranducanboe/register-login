@@ -51,6 +51,13 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation("com.google.firebase:firebase-auth:21.0.3")
-    implementation("com.google.firebase:firebase-database-ktx:20.3.0")
+    // Sử dụng Firebase BOM để quản lý tất cả phiên bản Firebase
+    implementation(platform("com.google.firebase:firebase-bom:31.5.0"))
+
+    // Firebase Authentication KTX
+    implementation("com.google.firebase:firebase-auth-ktx")
+
+    // Play Services Auth for Google Sign-In
+    implementation("com.google.android.gms:play-services-auth:20.5.0")
+
 }
